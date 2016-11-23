@@ -1,47 +1,34 @@
+/*********************************************************************************/
+/* HEADER                                                                  */
+/*********************************************************************************/
+
 header {
-    background: url("../images/baner_druk_akcept_RGB.jpg") lightgoldenrodyellow;
-    /*background: url("../images/spl-baner-czb.jpg") darkgrey;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    /*background-color: darkred;*/
-    /*opacity: 0.3;*/
+    background: black;
+    background-size: 100%;
     width: 100%;
     height: 100vh;
-    /*margin: 0;*/
-    /*padding: 0;*/
 }
-/*li {*/
-    /*display: inline-block;*/
-    /*font-size: 30px;*/
-    /*!*width: 30%;*!*/
-    /*!*padding-top: 70px;*!*/
-    /*padding-bottom: 20px;*/
-    /*min-width: 200px;*/
-    /*!*float: left;*!*/
-    /*text-align: center;*/
-
-/*}*/
-/*div {*/
-    /*!*text-align: center;*!*/
-    /*position: absolute;*/
-    /*bottom: 0;*/
-/*}*/
-
+.header-logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+img {
+    max-width: 800px;
+}
 nav {
     position: absolute;
     width: 100%;
     bottom: 20%;
     text-align: center;
-    /*color: white;*/
-    color: darkred;
-    /*border: 2px solid red;*/
 }
 li {
     display: inline;
-    font-size: 30px;
+    /*font-family: 'Courgette', cursive;*/
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2em;
     min-width: 250px;
-    padding: 30px;
-    /*border-left: 2px solid white;*/
-    border-left: 2px solid darkred;
+    padding: 0 1.4em 0 0.6em;
+    border-left: 2px solid white;
+    color: white;
 }
